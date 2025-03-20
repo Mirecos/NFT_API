@@ -18,6 +18,46 @@ const jsonData = [
       "name": "Blue medusa",
       "description": "Two blue medasas with a white background.",
       "image": "https://mirecos.github.io/WEB3---Images/2.jpg"
+  },
+  {
+      "name": "Fire skull",
+      "description": "A skull on fire with a black background.",
+      "image": "https://mirecos.github.io/WEB3---Images/3.jpg"
+  },
+  {
+      "name": "Wiwiwi",
+      "description": "A cat that proably said wiwiwi.",
+      "image": "https://mirecos.github.io/WEB3---Images/4.jpg"
+  },
+  {
+      "name": "Tournesols",
+      "description": "A bunch of sunflowers by Vincent van Drugs.",
+      "image": "https://mirecos.github.io/WEB3---Images/5.jpg"
+  },
+  {
+      "name": "A cup of teeeea",
+      "description": "English people be like.",
+      "image": "https://mirecos.github.io/WEB3---Images/6.jpg"
+  },
+  {
+      "name": "Papapa la caisse",
+      "description": "A beautiful car driving on a road.",
+      "image": "https://mirecos.github.io/WEB3---Images/7.jpg"
+  },
+  {
+      "name": "Duck duck",
+      "description": "This duck is a symbol of peace and tranquility.",
+      "image": "https://mirecos.github.io/WEB3---Images/8.jpg"
+  },
+  {
+      "name": "Inside the train",
+      "description": "Life is a journey, enjoy the ride.",
+      "image": "https://mirecos.github.io/WEB3---Images/9.jpg"
+  },
+  {
+      "name": "Lava lamps",
+      "description": "Lava lamps are really cool.",
+      "image": "https://mirecos.github.io/WEB3---Images/10.jpg"
   }
 ];
 
