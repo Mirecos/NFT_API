@@ -7,17 +7,17 @@ const jsonData = [
   {
       "name": "Starry Night",
       "description": "A beautiful depiction of a starry night by Vincent van Gogh.",
-      "image": "https://drive.google.com/file/d/1COrN2fb8_Tcwc-3V9GERtLlhUwAte42l/view?usp=sharing"
+      "image": "https://lh3.googleusercontent.com/d/1COrN2fb8_Tcwc-3V9GERtLlhUwAte42l"
   },
   {
       "name": "Crying eye",
       "description": "Filled with tears, this eye is a symbol of sadness and pain.",
-      "image": "https://drive.google.com/file/d/1TwZY5gnCyiB2MBEWxz6uC1HOcygNFakx/view?usp=sharing"
+      "image": "https://lh3.googleusercontent.com/d/1TwZY5gnCyiB2MBEWxz6uC1HOcygNFakx"
   },
   {
       "name": "Blue medusa",
       "description": "Two blue medasas with a white background.",
-      "image": "https://drive.google.com/file/d/1P3ogrdrvP4SbLvjZHrx7Oj9JXcIJxNsi/view?usp=sharing"
+      "image": "https://lh3.googleusercontent.com/d/1P3ogrdrvP4SbLvjZHrx7Oj9JXcIJxNsi"
   }
 ];
 
