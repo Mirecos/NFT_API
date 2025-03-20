@@ -7,17 +7,17 @@ const jsonData = [
   {
       "name": "Starry Night",
       "description": "A beautiful depiction of a starry night by Vincent van Gogh.",
-      "image": "https://lh3.googleusercontent.com/d/1COrN2fb8_Tcwc-3V9GERtLlhUwAte42l"
+      "image": "https://mirecos.github.io/WEB3---Images/0.jpg"
   },
   {
       "name": "Crying eye",
       "description": "Filled with tears, this eye is a symbol of sadness and pain.",
-      "image": "https://lh3.googleusercontent.com/d/1TwZY5gnCyiB2MBEWxz6uC1HOcygNFakx"
+      "image": "https://mirecos.github.io/WEB3---Images/1.jpg"
   },
   {
       "name": "Blue medusa",
       "description": "Two blue medasas with a white background.",
-      "image": "https://lh3.googleusercontent.com/d/1P3ogrdrvP4SbLvjZHrx7Oj9JXcIJxNsi"
+      "image": "https://mirecos.github.io/WEB3---Images/2.jpg"
   }
 ];
 
