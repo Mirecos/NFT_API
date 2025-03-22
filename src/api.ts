@@ -61,6 +61,59 @@ const jsonData = [
   }
 ];
 
+const minecraftCollection = [
+    {
+        "name": "Trident",
+        "description": "A legendary weapon forged in the depths of the ocean, capable of summoning the power of the seas.",
+        "image": "https://mirecos.github.io/WEB3---Images/minecraft/0.png"
+    },
+    {
+        "name": "Golden apple",
+        "description": "An enchanted fruit blessed by the gods, granting immense power and vitality to those who consume it.",
+        "image": "https://mirecos.github.io/WEB3---Images/minecraft/1.png"
+    },
+    {
+        "name": "Compass",
+        "description": "A mystical device that always points to the heart of the world, guiding adventurers on their epic quests.",
+        "image": "https://mirecos.github.io/WEB3---Images/minecraft/2.png"
+    },
+    {
+        "name": "Dragon's breath",
+        "description": "A rare and potent essence collected from the breath of a mighty dragon, used in powerful alchemical concoctions.",
+        "image": "https://mirecos.github.io/WEB3---Images/minecraft/3.png"
+    },
+    {
+        "name": "Egg",
+        "description": "A mysterious egg with the potential to hatch into a magical creature, holding untold secrets within.",
+        "image": "https://mirecos.github.io/WEB3---Images/minecraft/4.png"
+    },
+    {
+        "name": "Netherite sword",
+        "description": "A sword forged from the rarest materials found in the fiery depths of the Nether, unmatched in strength and durability.",
+        "image": "https://mirecos.github.io/WEB3---Images/minecraft/5.png"
+    },
+    {
+        "name": "Snowball",
+        "description": "A playful yet powerful projectile formed from enchanted snow, capable of freezing enemies in their tracks.",
+        "image": "https://mirecos.github.io/WEB3---Images/minecraft/6.png"
+    },
+    {
+        "name": "Flint",
+        "description": "A shard of ancient stone imbued with the power to ignite flames, essential for any adventurer's toolkit.",
+        "image": "https://mirecos.github.io/WEB3---Images/minecraft/7.png"
+    },
+    {
+        "name": "Creeper's book",
+        "description": "A forbidden tome containing the dark secrets of the Creepers, written in a language long forgotten.",
+        "image": "https://mirecos.github.io/WEB3---Images/minecraft/8.png"
+    },
+    {
+        "name": "Wooden sword",
+        "description": "A humble yet reliable weapon crafted from the finest enchanted wood, perfect for novice adventurers.",
+        "image": "https://mirecos.github.io/WEB3---Images/minecraft/9.png"
+    }
+];
+
 
 app.use(cors({ origin: true }));
 
@@ -70,7 +123,7 @@ app.use(express.text({ type: 'text/html' }));
 
 // Healthcheck endpoint
 app.get('/', (req, res) => {
-  res.status(200).send({ status: 'ok' });
+    res.status(200).send({ status: 'ok' });
 });
 
 app.get("/:id" , (req, res) => {
@@ -80,6 +133,16 @@ app.get("/:id" , (req, res) => {
   } else {
       res.status(404).send("NFT not found");
   }
+});
+
+// Add a new route for /minecraft/:id
+app.get("/minecraft/:id", (req, res) => {
+    const id = parseInt(req.params.id);
+    if (minecraftCollection[id]) {
+        res.json(minecraftCollection[id]);
+    } else {
+        res.status(404).send("NFT not found");
+    }
 });
 
 const api = express.Router();
